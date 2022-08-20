@@ -63,7 +63,7 @@ function Section2() {
             {" "}
             <button className="btn btn-1">
               {" "}
-              <img src={process.env.PUBLIC_URL+"images/icons/contact_page_black_24dp.svg"} alt="img" />
+              <img src={process.env.PUBLIC_URL+"/images/icons/contact_page_black_24dp.svg"} alt="img" />
               <p> See Portfolio </p>
             </button>
           </a>
@@ -71,7 +71,7 @@ function Section2() {
             {" "}
             <button className="btn btn-2">
               {" "}
-              <img src={process.env.PUBLIC_URL+"images/icons/contact_mail_black_24dp.svg"} alt="img" />
+              <img src={process.env.PUBLIC_URL+"/images/icons/contact_mail_black_24dp.svg"} alt="img" />
               <p> Contact me </p>
             </button>
           </a>

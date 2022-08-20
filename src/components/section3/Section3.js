@@ -12,7 +12,7 @@ function Section3() {
             <div className="container">
                 <div className="item-box">
                     <a href="https://magicalchat.herokuapp.com/" target="_blank"  rel="noreferrer">
-                        <img src={process.env.PUBLIC_URL+"images/img/chatapp.png"} alt='p1'/>
+                        <img src={process.env.PUBLIC_URL+"/images/img/chatapp.png"} alt='p1'/>
 
                         <div className="desc">
                             <p className="status">Personal</p>
@@ -32,7 +32,7 @@ function Section3() {
                 </div>
                 <div className="item-box">
                     <a href="https://amaan262.github.io/textutils/"  rel="noreferrer" target="_blank">
-                        <img src={process.env.PUBLIC_URL+"images/img/textutils.png"} alt='p2'/>
+                        <img src={process.env.PUBLIC_URL+"/images/img/textutils.png"} alt='p2'/>
 
                         <div className="desc">
                             <p className="status">Personal</p>
