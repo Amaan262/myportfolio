@@ -30,7 +30,7 @@ function Section2() {
               I'm <b>3rd year</b> Engineering Student in College of Technology,
               Pantnagar.
               <p>
-                <br /> <b>A passionate self-learner</b> and a{" "}
+                <br /> <b>A passionate self-learner</b> and a {" "}
                 <b>Web Developer</b>
               </p>
             </em>
