@@ -53,12 +53,12 @@ function Section5() {
             <div className="address">
               <p>
                 {" "}
-                <img src={process.env.PUBLIC_URL+"images/icons/mail.svg"} alt="" /> &nbsp;
+                <img src={process.env.PUBLIC_URL+"/images/icons/mail.svg"} alt="" /> &nbsp;
                 amaansaifi262@gmail.com
               </p>
               <p>
                 {" "}
-                <img src={process.env.PUBLIC_URL+"images/icons/location.svg"} alt="" /> &nbsp; Rudrapur,
+                <img src={process.env.PUBLIC_URL+"/images/icons/location.svg"} alt="" /> &nbsp; Rudrapur,
                 Uttarakhand
               </p>
 

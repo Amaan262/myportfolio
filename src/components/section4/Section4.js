@@ -15,21 +15,21 @@ function Section4() {
                 href="https://www.linkedin.com/in/ahmadamaan/"
                 target="_blank" rel="noreferrer"
               >
-                <img src={process.env.PUBLIC_URL+"images/icons/linkedin.svg"} alt="" />
+                <img src={process.env.PUBLIC_URL+"/images/icons/linkedin.svg"} alt="" />
                 <h2 className="text-center">Linkedin Profile</h2>
               </a>
               <p className="text-center">Checkout my Linkedin account</p>
             </div>
             <div className="box">
               <a href="https://www.instagram.com/a_maan_/" rel="noreferrer" target="_blank">
-                <img src={process.env.PUBLIC_URL+"images/icons/insta.svg"} alt="" />
+                <img src={process.env.PUBLIC_URL+"/images/icons/insta.svg"} alt="" />
                 <h2 className="text-center">Instagram</h2>
               </a>
               <p className="text-center">Checkout my instagram account</p>
             </div>
             <div className="box">
               <a href="https://www.facebook.com/Amaannik"  rel="noreferrer" target="_blank">
-                <img src={process.env.PUBLIC_URL+"images/icons/facebook.svg"} alt="" />
+                <img src={process.env.PUBLIC_URL+"/images/icons/facebook.svg"} alt="" />
                 <h2 className="text-center">Facebook</h2>
               </a>
               <p className="text-center">Checkout my Facebook account</p>

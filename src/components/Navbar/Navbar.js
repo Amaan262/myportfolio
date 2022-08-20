@@ -5,7 +5,7 @@ function Navbar() {
     <nav id="navbar">
       <div className="logo">
         <a href="https:/amaan262.github.io/Amaan262/">
-          <img src={process.env.PUBLIC_URL+"images/img/logoWhite.png"} alt="Amaan Ahmad" />
+          <img src={process.env.PUBLIC_URL+"/images/img/logoWhite.png"} alt="Amaan Ahmad" />
         </a>
       </div>
       <ul>
