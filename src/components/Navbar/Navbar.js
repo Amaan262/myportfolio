@@ -4,13 +4,13 @@ function Navbar() {
   return (
     <nav id="navbar">
       <div className="logo">
-        <a href="https:/amaan262.github.io/Amaan262/">
+        <a href={process.env.PUBLIC_URL}>
           <img src={process.env.PUBLIC_URL+"/images/img/logoWhite.png"} alt="Amaan Ahmad" />
         </a>
       </div>
       <ul>
         <li>
-          <a id="homebutton" href="/">
+          <a id="homebutton" href={process.env.PUBLIC_URL}>
             Home
           </a>
         </li>
