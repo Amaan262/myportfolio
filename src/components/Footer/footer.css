@@ -1,0 +1,19 @@
+
+footer{
+    background: #000000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer span{
+    margin-right: 10px;
+    opacity: 0.8;
+  }
+  footer img{
+    filter: invert(100%);
+    width: 20px;
+    margin: 1px 4px;
+  }
+  

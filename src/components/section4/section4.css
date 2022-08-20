@@ -1,0 +1,70 @@
+
+/* Contact section */
+
+section.contact{
+    color: white;
+  }
+  .heading {
+    background-color: rgb(28, 28, 28);
+    padding: 30px;
+    font-size: 32px;
+    line-height: 1.6;
+}
+
+  .contact-container{
+    position: relative;
+  }
+  .contact-container > *{
+    position: relative;
+  }
+  section.contact .contact-container::before{
+    background: url(/public/images/img/desktop-2.jpg);
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+  
+  }
+  .contact .overlay{
+    opacity: 0.5;
+  }
+  
+  .contact-box{
+    width: 80%;
+    height: 330px;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .contact-box .box{
+    margin-top: 10px;
+    width: 33%;
+  }
+  .contact-box .box img{
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    filter: invert(100%);
+    }
+    .contact-box a{
+      text-decoration: none;
+      color: white;
+    }
+  .contact-box .box h2, .contact-box .box p{
+  padding-top: 25px;
+  }
+  .contact-box-2{
+    margin-top: 60px;
+    height: 500px;
+  }
+  .overlay{
+    position: absolute;
+  }
+  
