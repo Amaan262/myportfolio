@@ -1,0 +1,55 @@
+/* Navigation bar Desktop */
+
+
+.navbar {
+    display: flex;
+    top: 0;
+    left:0;
+    justify-content: space-between;
+    width:100%;
+    margin: 0px auto;
+    z-index:999;
+    position:fixed;
+    height:7rem;
+    transition: height 0.3 ease,background-color 0.3s ease;
+}
+.shrink{
+    height:4.5rem;
+    /* background:#1C1C1C; */
+    /* background-color: #e8ecee; */
+    background: rgba(22, 34, 42,0.75);
+    /* background: linear-gradient(80deg,#16222a,#3a6073); */
+    /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+}
+
+/* logo */
+
+.navbar .logo img {
+  width: 190px;
+  margin: 5px 10px;
+}
+/* nav bar */
+
+.navbar {
+  display: flex;
+  justify-self: space-evenly;
+  align-items:center;
+
+}
+
+.navbar > ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+.navbar ul li a {
+  color: white;
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 26px 20px;
+  text-decoration: none;
+}
+.navbar ul li a:hover {
+  color: #13aff0;
+  text-decoration: underline;
+}

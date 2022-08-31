@@ -69,7 +69,7 @@
   .desc{
     height: 200px;
   }
-  .desc .status{
+  .desc .category{
     text-align: left;
     color: #6366f1;
     margin: 10px 14px;
@@ -81,6 +81,7 @@
     font-weight: bold;
     margin: 5px 10px;
     opacity: 0.9;
+    text-align: center;
   }
   .about-item{
     margin: 10px 10px;

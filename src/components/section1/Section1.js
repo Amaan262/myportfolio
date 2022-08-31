@@ -2,6 +2,7 @@ import React from "react";
 import "./section1.css";
 import Navbar from "../Navbar/Navbar";
 
+
 function section1() {
   return (
     <>
